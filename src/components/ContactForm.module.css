@@ -1,0 +1,58 @@
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+  background-color: rgb(255, 255, 255); 
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(255, 252, 252, 0.927);
+  gap: 1rem;
+  
+  
+  
+}
+
+.nameSurname {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.inputRow {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+input {
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 0.1px solid rgb(193, 188, 188);
+}
+
+
+
+.radioGroup {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.checkbox {
+    display: flex;
+}
+
+.submitButton {
+    background-color: rgb(65, 101, 65);
+    color: white;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 0.1px solid rgb(193, 188, 188);
+}
